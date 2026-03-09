@@ -12,4 +12,5 @@ description: "High-quality DIY hardware, kits, and documentation."
 plugins:
   - jekyll-feed
   - jekyll-gist
-  - jekyll-remote-theme # <--- ESTA ES LA CLAVE
+  - jekyll-remote-theme 
+  - jekyll-include-cache
