@@ -2,20 +2,18 @@
 layout: home
 author_profile: true
 header:
-  overlay_image: /assets/images/tu-pcb-hero.jpg
-  caption: "Testing our latest prototype v1.2"
-excerpt: "Welcome to our Hardware Lab. Quality DIY kits for the modern maker."
+  overlay_color: "#333"
+  # overlay_image: /assets/images/header-beaver.jpg # Pon la foto cuando la tengas
+  caption: "The Beaver Dam: Rugged Hardware for Makers"
+excerpt: "Engineering open-source hardware, one branch at a time."
 ---
 
-## Featured Hardware
-Aquí puedes poner el texto que redactamos antes para el README. 
-
-[Go to My Lectronz Store](https://lectronz.com/stores/tu-tienda){: .btn .btn--primary .btn--large}
-
-## Latest Designs
+## Featured Hardware Designs
 
 <div class="grid__wrapper">
   {% for design in site.designs %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+
+[Visit our Shop on Lectronz](https://lectronz.com/stores/thebeaverdam){: .btn .btn--success .btn--large}
