@@ -1,4 +1,3 @@
-theme: minimal-mistake-jekyll
 remote_theme: mmistakes/minimal-mistakes@4.24.0 # Esto es vital para GitHub Pages
 
 # Configuración de URL (ajusta a tu caso)
