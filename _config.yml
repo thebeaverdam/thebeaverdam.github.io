@@ -14,3 +14,17 @@ plugins:
   - jekyll-gist
   - jekyll-remote-theme 
   - jekyll-include-cache
+
+collections:
+  designs:
+    output: true
+    permalink: /designs/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "designs"
+    values:
+      layout: "single"
+      author_profile: true
+      share: true

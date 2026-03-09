@@ -11,3 +11,11 @@ excerpt: "Welcome to our Hardware Lab. Quality DIY kits for the modern maker."
 Aquí puedes poner el texto que redactamos antes para el README. 
 
 [Go to My Lectronz Store](https://lectronz.com/stores/tu-tienda){: .btn .btn--primary .btn--large}
+
+## Latest Designs
+
+<div class="grid__wrapper">
+  {% for design in site.designs %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
