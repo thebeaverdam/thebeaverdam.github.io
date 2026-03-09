@@ -1,0 +1,16 @@
+theme: minimal-mistake-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.24.0 # Esto es vital para GitHub Pages
+
+# Configuración de URL (ajusta a tu caso)
+url: "https://thebeaverdam.github.io"
+baseurl: "" # Déjalo vacío si es el repo principal (tu-usuario.github.io)
+
+# Información de tu Marca de Hardware
+title: "The Beaver Dam"
+name: "The Beaver Dam"
+description: "High-quality DIY hardware, kits, and documentation."
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-remote-theme # <--- ESTA ES LA CLAVE
