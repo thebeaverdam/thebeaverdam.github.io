@@ -1,0 +1,10 @@
+# Barra de navegación principal
+main:
+  - title: "Home"
+    url: /
+  - title: "All Designs"
+    url: /designs/
+  - title: "Blog"
+    url: /posts/
+  - title: "Shop on Lectronz"
+    url: https://lectronz.com/stores/thebeaverdam
