@@ -1,9 +1,8 @@
 ---
-layout: home
+layout: archive
 author_profile: true
 header:
   overlay_color: "#333"
-  # overlay_image: /assets/images/header-beaver.jpg # Pon la foto cuando la tengas
   caption: "The Beaver Dam: Rugged Hardware for Makers"
 excerpt: "Engineering open-source hardware, one branch at a time."
 ---
@@ -11,8 +10,11 @@ excerpt: "Engineering open-source hardware, one branch at a time."
 ## Featured Hardware Designs
 
 <div class="grid__wrapper">
-  {% for design in site.designs %}
+  {% assign designs = site.designs | default: site.collections.designs.docs %}
+  {% for design in designs %}
     {% include archive-single.html post=design type="grid" %}
+  {% else %}
+    <p>No designs found. Check if the collection is correctly configured in _config.yml and the folder _designs contains .md files.</p>
   {% endfor %}
 </div>
 

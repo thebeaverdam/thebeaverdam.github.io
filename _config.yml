@@ -30,7 +30,7 @@ defaults:
       share: true
   - scope:
       path: ""
-      type: "designs" # Asegúrate de que esto coincida con el nombre de la colección arriba
+      type: "designs"
     values:
       layout: "single"
       author_profile: true
