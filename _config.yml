@@ -18,12 +18,12 @@ plugins:
 collections:
   designs:
     output: true
-    permalink: /_designs/:name/
+    permalink: /designs/:name/
 
 defaults:
   - scope:
       path: ""
-      type: "designs"
+      type: "designs" # Asegúrate de que esto coincida con el nombre de la colección arriba
     values:
       layout: "single"
       author_profile: true
