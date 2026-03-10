@@ -30,3 +30,4 @@ Puedes adquirir el kit completo o la PCB suelta en nuestra tienda oficial:
 | :--- | :--- | :--- |
 | C1, C2 | 10uF | 0805 |
 | U1 | ESP32-S3-WROOM-1 | Module |
+
