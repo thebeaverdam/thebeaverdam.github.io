@@ -12,7 +12,7 @@ excerpt: "Engineering open-source hardware, one branch at a time."
 
 <div class="grid__wrapper">
   {% for design in site.designs %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html post=design type="grid" %}
   {% endfor %}
 </div>
 

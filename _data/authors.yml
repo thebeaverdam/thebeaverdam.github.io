@@ -1,0 +1,16 @@
+# Default Author
+The Beaver Dam:
+  name: "The Beaver Dam"
+  avatar: "/assets/images/logo.png" # You can add a logo here later
+  bio: "Engineering open-source hardware, one branch at a time."
+  location: "Earth"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://thebeaverdam.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/thebeaverdam"
+    - label: "Lectronz"
+      icon: "fas fa-fw fa-shopping-cart"
+      url: "https://lectronz.com/stores/thebeaverdam"

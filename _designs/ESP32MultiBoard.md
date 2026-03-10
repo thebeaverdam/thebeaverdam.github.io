@@ -7,7 +7,7 @@ sidebar:
   - title: "Specs"
     text: "MCU: ESP32-S3<br>RAM: 8MB PSRAM<br>Power: LiPo + Solar"
   - title: "Resources"
-    text: "[Schematics (PDF)](/assets/docs/schematic-v1.pdf)<br>[Firmware (GitHub)](https://github.com/thebeaverdam/firmware)"
+    text: "<!-- [Schematics (PDF)](/assets/docs/schematic-v1.pdf) (Coming Soon) --><br>[Firmware (GitHub)](https://github.com/thebeaverdam/firmware)"
 ---
 
 ## Technical Overview
