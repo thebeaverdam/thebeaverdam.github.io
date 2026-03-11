@@ -1,32 +1,55 @@
-remote_theme: mmistakes/minimal-mistakes@4.24.0 # Esto es vital para GitHub Pages
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 
-# Configuración de URL (ajusta a tu caso)
 url: "https://thebeaverdam.github.io"
-baseurl: "" # Déjalo vacío si es el repo principal (tu-usuario.github.io)
+baseurl: ""
 
-# Información de tu Marca de Hardware
 title: "The Beaver Dam"
 name: "The Beaver Dam"
 description: "High-quality DIY hardware, kits, and documentation."
+locale: "en-US"
+repository: "thebeaverdam/thebeaverdam.github.io"
+
+# Author profile (sidebar)
+author:
+  name: "The Beaver Dam"
+  bio: "Engineering open-source hardware, one branch at a time. 🦫"
+  location: "Earth"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/thebeaverdam"
+    - label: "Lectronz Store"
+      icon: "fas fa-fw fa-shopping-cart"
+      url: "https://lectronz.com/stores/thebeaverdam"
+
+# Footer links
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/thebeaverdam"
+    - label: "Lectronz Store"
+      icon: "fas fa-fw fa-shopping-cart"
+      url: "https://lectronz.com/stores/thebeaverdam"
 
 plugins:
   - jekyll-feed
   - jekyll-gist
-  - jekyll-remote-theme 
+  - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-sitemap
 
 collections:
   designs:
     output: true
     permalink: /designs/:name/
+    sort_by: date
 
 defaults:
   - scope:
       path: ""
     values:
-      layout: "single"
       author_profile: true
-      author: "The Beaver Dam"
       share: true
   - scope:
       path: ""
@@ -35,3 +58,11 @@ defaults:
       layout: "single"
       author_profile: true
       share: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      share: true
+      show_date: true

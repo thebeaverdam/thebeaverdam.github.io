@@ -2,6 +2,7 @@
 layout: collection
 title: "Hardware Designs"
 collection: designs
+entries_layout: grid
 permalink: /designs/
 author_profile: true
 ---
