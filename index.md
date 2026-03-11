@@ -3,7 +3,8 @@ layout: splash
 author_profile: false
 header:
   overlay_color: "#1a1a2e"
-  overlay_filter: "0.5"
+  overlay_image: /assets/images/logo.png
+  overlay_filter: "0.6"
   caption: ""
   actions:
     - label: "🛒 Visit our Shop"

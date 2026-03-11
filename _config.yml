@@ -6,12 +6,14 @@ baseurl: ""
 title: "The Beaver Dam"
 name: "The Beaver Dam"
 description: "High-quality DIY hardware, kits, and documentation."
+logo: "/assets/images/logo.png"
 locale: "en-US"
 repository: "thebeaverdam/thebeaverdam.github.io"
 
 # Author profile (sidebar)
 author:
   name: "The Beaver Dam"
+  avatar: "/assets/images/logo.png"
   bio: "Engineering open-source hardware, one branch at a time. 🦫"
   location: "Earth"
   links:
