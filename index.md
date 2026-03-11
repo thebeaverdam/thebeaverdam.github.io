@@ -4,7 +4,7 @@ author_profile: false
 header:
   overlay_color: "#1a1a2e"
   overlay_filter: "0.5"
-  caption: "The Beaver Dam: Rugged Hardware for Makers"
+  caption: ""
   actions:
     - label: "🛒 Visit our Shop"
       url: "https://lectronz.com/stores/thebeaverdam"
@@ -12,9 +12,9 @@ excerpt: "Engineering open-source hardware, one branch at a time."
 
 feature_row:
   - image_path: /assets/images/designs/MultiBoard.png
-    alt: "ESP32 MultiBoard v1.1"
-    title: "ESP32 MultiBoard v1.1"
-    excerpt: "A rugged IoT development board with ESP32-S3, 8MB PSRAM, LiPo + Solar power."
+    alt: "ESP32 MultiBoard"
+    title: "ESP32 MultiBoard"
+    excerpt: "A multi connector development board compatible with ESPHome"
     url: /designs/esp32-multiboard/
     btn_label: "Learn More"
     btn_class: "btn--primary"
